@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>Profile</h1>
+    <p>Custom Layout</p>
+    <slot />
   </div>
 </template>
 

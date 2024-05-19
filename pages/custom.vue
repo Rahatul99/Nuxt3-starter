@@ -1,9 +1,11 @@
 <template>
-  <div>event id: {{ $route.params.id }}</div>
+  <div>Custom page</div>
 </template>
 
 <script>
-export default {};
+definePageMeta({
+  layout: "custom",
+});
 </script>
 
 <style lang="scss" scoped></style>
