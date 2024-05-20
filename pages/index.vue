@@ -1,4 +1,6 @@
 <script setup>
+const response = await $fetch("/api/hello");
+console.log(response, "response");
 // const counter = useState("counter", () => 1);
 // const counter = useCounter();
 import { useCounterStore } from "~/stores/myStore";
