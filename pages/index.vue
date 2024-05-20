@@ -1,8 +1,11 @@
-<script setup lang="ts"></script>
+<script setup>
+const counter = useState("counter", () => 1);
+</script>
+
 <template>
   <div>
-    <ContentDoc />
+    Counter: {{ counter }}
+    <button @click="counter++">+</button>
+    <button @click="counter--">-</button>
   </div>
 </template>
-
-<style lang="scss" scoped></style>
