@@ -1,3 +1,13 @@
+<script setup lang="ts">
+// console.log(useNuxtApp(), "https://vueuse.org/");
+
+// const { $sayHello } = useNuxtApp();
+// $sayHello("Rahat");
+
+definePageMeta({
+  middleware: "auth",
+});
+</script>
 <template>
   <div>
     <!-- <Alert /> -->
